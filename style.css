@@ -1,0 +1,109 @@
+:root {
+    --brand: #8246af;
+    --action: #ffa300;
+    --white: #ffffff;
+    --base-light: #cdb5df;
+    --base-dark: #0d0711;
+    --black: #111111;    
+    --space-small:8px;
+    --space-medium:16px;
+    --space-large:32px;
+    --space-xl:40px;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rubik", sans-serif;
+}
+body,h1,h2,h3,h4,h5,h6,
+p,ol,ul {
+margin: 0;
+padding: 0;}
+ol,ul {
+list-style: none;}
+
+img {
+max-width: 100%;
+height: auto;}
+
+input,button,textarea,select {
+font: inherit;}
+/* Hero styles */
+
+.hero{
+    margin:10px;
+    border-radius:5px;
+    background-color: var(--brand);
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.card{
+    background-color:#cdb5df;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.logo{
+    max-height: 200px;
+    height:auto;
+}
+
+/* utility classes */
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+
+padding-small{
+    padding:8px;
+}
+
+.padding-medium{
+    padding: 16px;
+}
+
+.padding-large{
+    padding: 32px;
+}
+
+.icon{
+    width: 34px;
+}
+
+.btn-effect{
+    padding: 1.5%;
+    background-color: orange;
+    border-radius: 5px;
+    max-width: 200px;
+}
